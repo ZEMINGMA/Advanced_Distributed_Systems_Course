@@ -2,7 +2,7 @@
     高级分布式系统实验
 
 # 目录结构 
-
+```
 ├── include
 ├── lib
 │   ├── atom.cpp
@@ -29,14 +29,17 @@
         ├── PaxosData.h
         ├── Proposer.cpp
         └── Proposer.h
+```
 
 # 测试流程
+```
 mkdir build
 cd build
 cmake..
 make
 ./paxos
+```
 
 # TODO
--[X] Acceptor
--[X] Proposer
+- [x] Acceptor
+- [x] Proposer
