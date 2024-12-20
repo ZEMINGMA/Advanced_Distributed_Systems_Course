@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include "Paxos/Acceptor.h"
 #include "Paxos/Proposer.h"
-#include "lib/Thread.h"
-#include "lib/Lock.h"
-#include "lib/mapi.h"
-#include "lib/atom.h"
-#include "lib/Logger.h"
+#include "../lib/Thread.h"
+#include "../lib/Lock.h"
+#include "../lib/mapi.h"
+#include "../lib/atom.h"
+#include "../lib/Logger.h"
 
 paxos::Proposer p[5];
 paxos::Acceptor a[11];
