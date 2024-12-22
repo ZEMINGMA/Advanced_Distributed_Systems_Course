@@ -79,11 +79,6 @@ bool Proposer::Proposed(bool ok, PROPOSAL &lastAcceptValue)
         return true;
     }
 	/**********End**********/	
-
-
-
-
-
 	//如果自己的提议被接受
 	if ( m_okCount > m_acceptorCount / 2 ) 
 	{
@@ -114,16 +109,7 @@ bool Proposer::Accepted(bool ok)
             StartPropose(m_value);
             return false;
         }
-	    
-        
         /**********End**********/
- 		
-
-
-
-
-
-	
 		return true;
 	}
 
